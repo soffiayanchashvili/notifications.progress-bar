@@ -1,0 +1,62 @@
+.notification {
+  background: #2f3032;
+  border-radius: 20px;
+  width: 923px;
+  margin: 20px;
+  display: flex;
+  padding: 43px 63px;
+  gap: 50px;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.n-green::before{
+    background-color: #00cc99;
+}
+.n-red::before{
+    background-color: #EB5757;
+}
+.n-yellow::before{
+    background-color: #F2C94C;
+}
+.n-blue::before{
+    background-color: #5458F7;
+}
+.notification::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+.n-green .icon-wrapper{
+    background-color: #00cc99;
+}
+.n-red .icon-wrapper{
+    background-color: #EB5757;
+}
+.n-yellow .icon-wrapper{
+    background-color: #F2C94C;
+}
+.n-blue .icon-wrapper{
+    background-color: #5458F7;
+}
+.icon-wrapper {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4 {
+  font-weight: 500;
+  font-size: 36px;
+}
+p {
+  font-family: "Poppins";
+  font-size: 24px;
+  line-height: 36px;
+}
